@@ -10,12 +10,12 @@ function App() {
 
   const validation = (e) => {
     if (num1 == "") {     
-      setMsg("ERROR ! :  First number cannot be empty");
+      setMsg("ERROR ! :  Num 1 cannot be empty");
       setResult("");
       return;
     }
     else if (num2 == "") {
-      setMsg("ERROR ! :  Second number cannot be empty");
+      setMsg("ERROR ! :  Num 2 cannot be empty");
       setResult("");
       return;
     }
